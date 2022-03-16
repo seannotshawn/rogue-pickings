@@ -1,0 +1,207 @@
+/**** BASE STYLES ****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/**** GRID ***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/**** HEADER section ****/
+
+header {
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family:'Montserrat', serif;
+    color: black;
+    font-weight: bold;
+    width: 300px; 
+    float: left;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    width: 800px; 
+    float: right;  
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+    padding-left: 50px; 
+}
+
+
+
+/**** HEADER - green beans image ****/
+header img#green-beans {
+    margin-left: ;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+
+/**** ABOUT SECTION ****/
+
+#about h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#about {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/**** BOTTOM-SECTION (menu/reviews/contact) ****/
+
+.section-one, .section-two, .section-three {
+    width: 399px; 
+    height: auto;
+    float: left;
+    border-top: 1px solid #dedbdc;
+}
+
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+/**** MENU SECTION ****/
+
+#menu span {
+    font-size: 12px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 0px;
+}
+
+#menu {
+    color: #77a466;
+    padding-left: 65px;
+}
+
+/**** REVIEWS SECTION ****/
+
+#reviews span {
+    font-size: 12px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    padding-left: px;
+}
+
+#reviews {
+    font-size: 16px; 
+}
+
+.section-two {
+    padding-left: 10px;
+}
+
+
+/**** CONTACT SECTION ****/
+
+#contact span {
+    font-size: 12px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}
+
+#contact .section-three {
+    padding-left: 10px;
+}
+
+/**** FOOTER SECTION ****/
+
+#footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    clear: both;
+    border-top: 1px solid #dedbdc; 
+}
+
+#footer span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+
+
+
+
+/**** GALLERY PAGE CODE ****/
+
+#food-one img {
+    width: 300px;
+    height: 400px; 
+    padding-left: 210px;
+}
+
+#food-one .half-width {
+    width: 500px;
+    float: left; 
+    padding-left: px; 
+    padding-top: 100px; 
+}
+
+#food-one h2 {
+    text-align: left; 
+    padding-left: 70px; 
+}
+
+#food-one p {
+    padding-left: 70px; 
+}
+
+#food-two img {
+    width: 350px;
+    height: 350px; 
+    padding-left: 120px;
+}
+
+#food-two .half-width {
+    width: 500px; 
+    float: left; 
+    padding-right: ;
+    padding-top: 50px; 
+}
+
+#food-two .full-width {
+    padding-bottom: 100px; 
+}
+
+#food-two h2 {
+    text-align: left; 
+}
+
+#food-two p {
+    padding-right: 100px; 
+}
